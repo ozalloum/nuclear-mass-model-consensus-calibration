@@ -1,0 +1,8 @@
+dataset,n_nuclei,role
+AME2012 primary measured population,2235,reference population
+AME2016 primary measured population,2271,reference population
+AME2020 primary measured population,2339,reference population
+AME2012→AME2016 newly measured primary targets,32,development
+AME2012→AME2016 targets with measured-neighbor S2n,17,development secondary observable
+AME2016→AME2020 newly measured primary targets,51,locked confirmation
+AME2016→AME2020 targets with measured-neighbor S2n,34,locked confirmation secondary observable

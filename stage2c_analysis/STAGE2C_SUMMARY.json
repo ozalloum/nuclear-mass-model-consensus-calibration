@@ -1,0 +1,12 @@
+{
+  "performance_rows": 2,
+  "calibration_rows": 10,
+  "condition_rows": 14,
+  "s2n_rows": 10,
+  "figures": [
+    "Fig2_Consensus_Calibration_Scatter.pdf",
+    "Fig3_Consensus_Calibration_Quintiles.pdf",
+    "Fig4_False_Consensus_Nuclear_Chart.pdf",
+    "Fig5_Mass_vs_S2n_Consensus_Information.pdf"
+  ]
+}
