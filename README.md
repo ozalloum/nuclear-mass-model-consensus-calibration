@@ -1,5 +1,19 @@
 # Nuclear-mass model consensus calibration
+## Current corrected package — v1.1.0
 
+**[Open the corrected v1.1.0 release](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/tag/v1.1.0)**
+
+[Download the complete corrected package (ZIP)](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/download/v1.1.0/JPhysG_106072_Reproducibility_v1.1.0.zip)
+
+For the current manuscript, numerical supplement, analysis code, scientific data,
+figures and verification records, use the v1.1.0 package linked above.
+
+After extracting the ZIP, start with `public_release/README.md`.
+
+The root-level directories described below are retained as the historical baseline.
+The original Git history and v1.0.0 release remain available for provenance.
+
+---
 Minimal reproducibility repository for the chronology-locked evaluation of
 uncertainty calibration in the FRDM2012, HFB-27, DZ31, and WS4 global
 nuclear-mass models.
