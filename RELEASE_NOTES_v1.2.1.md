@@ -1,20 +1,14 @@
-# JPhysG-106072 scientific package v1.2.1
+# v1.2.1 — current synchronized scientific package
 
-This patch supersedes v1.2.0. It removes calendar dates attached to the GSM
-data-source decision while preserving the disclosure that digitization was
-adopted during revision after inspection. Manuscript, supplement, response
-sources and scientific package references are synchronized. The supplement
-now identifies the complete current scientific package.
+This release contains the current JPhysG-106072 scientific package and the documented revision-stage GSM data-source amendment.
 
-The GSM numerical data and Figure 7 are unchanged. Direct checking against
-the supplied journal PDF confirms all 15 values to 0.01 MeV; maximum rounding
-difference is 0.0046093 MeV. The archived arXiv geometry check is also retained;
-the arXiv PDF was not supplied for this run.
+- The manuscript is synchronized with the current journal revision.
+- Figure 7 is synchronized with the manuscript. The plotted values and common axes are unchanged; the legends are placed inside the upper-right corner of panels (a) and (b).
+- All 15 vector-digitized GSM values are unchanged and agree with the supplied journal PDF plot to 0.01 MeV; the maximum rounding discrepancy remains 0.0046093 MeV.
+- Separate 48Ca-core and 54Ca-core series, matched-isotope comparisons and extraction sensitivity remain included.
+- The frozen scientific data and numerical results are unchanged.
+- Full scientific reproduction materials, original Fortran source, Windows verification bundle, run evidence and raw DZ31 output remain included.
 
-Full scientific reproduction: 43 CSV comparisons pass. Original Fortran source,
-Windows bundle, raw output and 21,275-value verification evidence remain.
-No fresh Fortran compilation is claimed in this run.
+The figure-derived GSM values are reconstructed estimates, not original solver outputs. The ±0.10 MeV allowance is a stress test, not a confidence interval. The regional comparison remains retrospective.
 
-Download JPhysG_106072_Reproducibility_v1.2.1.zip and start with
-public_release/README.md. Reviewer correspondence remains in the private
-submission package and is excluded from the public scientific release.
+Reviewer correspondence and alternate submission documents are excluded from the public scientific package.
