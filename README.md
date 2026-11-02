@@ -2,9 +2,9 @@
 
 ## Current GSM revision — v1.2.1
 
-**[Open the current v1.2.1 release](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/tag/v1.2.1)**
+**[Open the current v1.2.1 release](https://github.com/ozalloum/nuclear-mass-model/releases/tag/v1.2.1)**
 
-[Download the complete scientific package (ZIP)](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/download/v1.2.1/JPhysG_106072_Reproducibility_v1.2.1.zip)
+[Download the complete scientific package (ZIP)](https://github.com/ozalloum/nuclear-mass-model/releases/download/v1.2.1/JPhysG_106072_Reproducibility_v1.2.1.zip)
 
 **How informative is agreement among nuclear-mass models? Chronology-respecting tests of error coverage and shell proximity** — JPhysG-106072
 
