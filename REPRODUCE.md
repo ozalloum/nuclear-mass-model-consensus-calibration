@@ -1,18 +1,15 @@
-# Reproduction
+# Reproduce the current GSM revision
 
-From the repository root, run:
+Download and extract JPhysG_106072_Reproducibility_v1.2.0.zip from this repository
+or release v1.2.0. Start with public_release/README.md inside the ZIP.
 
 ```bash
+cd public_release
 python -m pip install -r requirements.txt
-python code/reproduce_repository.py
+python reproduce_review_package.py --verify-only
+python reproduce_review_package.py --output ../JPhysG_106072_reproduction
 ```
 
-Expected final output:
-
-```text
-"status": "PASS"
-```
-
-The reproduction regenerates all reported CSV tables and the five PDF figures,
-then checks the locked confirmation population, correlations, MAEs,
-false-consensus counts, separation-energy result, and completion lock.
+The root-level code/reproduce_repository.py reproduces the historical baseline
+only. The current ZIP runner also covers the independent revision analyses, GSM,
+source checks and updated submission figures. The output directory must be new.

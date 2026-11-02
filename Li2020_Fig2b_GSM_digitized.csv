@@ -1,0 +1,13 @@
+A,isotope,S2n_GSM_core48_MeV,S2n_GSM_core54_MeV,conservative_digitization_allowance_MeV,provenance
+50,50Ca,11.68,,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+52,52Ca,12.14,,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+54,54Ca,8.02,,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+56,56Ca,3.95,4.37,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+58,58Ca,3.09,3.01,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+60,60Ca,2.24,1.86,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+62,62Ca,,0.48,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+64,64Ca,,0.54,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+66,66Ca,,0.78,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+68,68Ca,,0.97,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+70,70Ca,,1.29,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"
+72,72Ca,,-2.28,0.10,"Li et al. PRC 102 034302 (2020) Fig. 2(b), vector-digitized"

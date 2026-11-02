@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "source_sha256": "4d28541904ad2f6111ac234bbdbe1f8ba105f429d74d3ba9c716f858060535f7",
+  "shared_y": true,
+  "axes": [
+    {
+      "title": "(a) Global mass models",
+      "xscale": "linear",
+      "yscale": "linear",
+      "xlim": [
+        47.5,
+        60.5
+      ],
+      "ylim": [
+        0.0,
+        20.0
+      ],
+      "xticks": [
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60
+      ],
+      "yticks": [
+        0.0,
+        2.5,
+        5.0,
+        7.5,
+        10.0,
+        12.5,
+        15.0,
+        17.5,
+        20.0
+      ],
+      "axes_box": [
+        0.085,
+        0.2899999999999999,
+        0.4248826291079812,
+        0.6100000000000001
+      ]
+    },
+    {
+      "title": "(b) Regional shell models",
+      "xscale": "linear",
+      "yscale": "linear",
+      "xlim": [
+        47.5,
+        60.5
+      ],
+      "ylim": [
+        0.0,
+        20.0
+      ],
+      "xticks": [
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60
+      ],
+      "yticks": [
+        0.0,
+        2.5,
+        5.0,
+        7.5,
+        10.0,
+        12.5,
+        15.0,
+        17.5,
+        20.0
+      ],
+      "axes_box": [
+        0.5651173708920187,
+        0.2899999999999999,
+        0.42488262910798125,
+        0.6100000000000001
+      ]
+    }
+  ],
+  "no_scale_change_needed": true,
+  "finite_series_ranges": {
+    "AME2020_S2n_MeV": {
+      "minimum": 4.492439199999998,
+      "maximum": 17.2278942
+    },
+    "FRDM2012_S2n_MeV": {
+      "minimum": 4.4326361999999975,
+      "maximum": 14.9926362
+    },
+    "HFB27_S2n_MeV": {
+      "minimum": 2.2126361999999986,
+      "maximum": 15.862636200000004
+    },
+    "DZ31_S2n_MeV": {
+      "minimum": 3.5826362,
+      "maximum": 16.402636199999996
+    },
+    "WS4_S2n_MeV": {
+      "minimum": 3.2466361999999998,
+      "maximum": 16.443636199999993
+    },
+    "Coraggio2020_S2n_MeV": {
+      "minimum": 3.017,
+      "maximum": 18.105
+    },
+    "S2n_GSM_core48_MeV": {
+      "minimum": 2.24,
+      "maximum": 12.14
+    },
+    "S2n_GSM_core54_MeV": {
+      "minimum": 1.86,
+      "maximum": 4.37
+    }
+  },
+  "experimental_mass_numbers": [
+    48,
+    50,
+    52,
+    54,
+    56
+  ],
+  "note": "A is mass number, not neutron number; N=A-20. A=62-72 is intentionally outside Figure 7 and retained in Supplement S7. Both panels use identical vertical and horizontal scales."
+}

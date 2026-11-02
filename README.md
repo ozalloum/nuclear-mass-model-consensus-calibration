@@ -1,52 +1,58 @@
 # Nuclear-mass model consensus calibration
-## Current corrected package — v1.1.0
 
-**[Open the corrected v1.1.0 release](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/tag/v1.1.0)**
+## Current GSM revision — v1.2.0
 
-[Download the complete corrected package (ZIP)](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/download/v1.1.0/JPhysG_106072_Reproducibility_v1.1.0.zip)
+**[Open the current v1.2.0 release](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/tag/v1.2.0)**
 
-For the current manuscript, numerical supplement, analysis code, scientific data,
-figures and verification records, use the v1.1.0 package linked above.
+[Download the complete scientific package (ZIP)](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/download/v1.2.0/JPhysG_106072_Reproducibility_v1.2.0.zip)
 
-After extracting the ZIP, start with `public_release/README.md`.
+**How informative is agreement among nuclear-mass models? Chronology-respecting
+tests of error coverage and shell proximity** — JPhysG-106072
 
-The root-level directories described below are retained as the historical baseline.
-The original Git history and v1.0.0 release remain available for provenance.
+The complete source/code/data tree is in the versioned ZIP; the manuscript,
+supplement, Figure 7 and GSM CSV are also available directly below.
 
----
-Minimal reproducibility repository for the chronology-locked evaluation of
-uncertainty calibration in the FRDM2012, HFB-27, DZ31, and WS4 global
-nuclear-mass models.
+The current package includes the manuscript, numerical supplement, all 15 audited
+vector-digitized GSM values from Li et al. Figure 2(b), the two separate core
+series, matched-isotope comparisons, extraction sensitivity, Figure 7 and the
+complete scientific reproduction materials.
 
-AME2012-to-AME2016 defines the development sample and freezes the analysis.
-AME2016-to-AME2020 supplies the locked confirmation sample. The reported
-confirmation set contains 51 nuclei, with Spearman rho = 0.2648 between model
-spread and later absolute error, FC-A = 0/51, FC-B = 2/51, and consensus
-mass-excess MAE = 0.24695 MeV. For 34 measured-neighbor two-neutron separation
-energies, the consensus MAE is 0.12595 MeV.
+- Start here: download the current ZIP and open `public_release/README.md`.
+- [Current manuscript](JPhysG_106072_Revised_v1.2.0.pdf)
+- [Current numerical supplement](JPhysG_106072_Supplement_v1.2.0.pdf)
+- [Digitized GSM values (CSV)](Li2020_Fig2b_GSM_digitized.csv)
+- [Figure 7](Figure7_Calcium_S2n_v1.2.0.pdf)
+- [GSM protocol amendment](GSM_PROTOCOL_AMENDMENT_2026-11-02.txt)
 
-## Contents
+Figure 7 uses identical linear scales in both panels: A=48–60 with steps of 2,
+and S2n=0–20 MeV with steps of 2.5 MeV. Values beyond A=60 are retained in
+Supplement S7. GSM is a regional comparator; the four-model ensemble and the
+primary and broad mass-cohort results are unchanged. The original Fortran source,
+verification bundle, run report and raw output remain included.
 
-- `code/`: analysis, figure generation, and verification scripts
-- `data/processed/`: chronology-defined AME targets and processed AME data
-- `data/standardized_models/`: four standardized model tables used in scoring
-- `frozen_protocol/`: registered protocol and implementation amendment
-- `stage2a_development/` and `stage2b_confirmation/`: locked scored datasets
-- `tables/` and `figures/`: reported numerical and graphical outputs
+## Reproduce the current version
 
-## Reproduce
+Download and extract `JPhysG_106072_Reproducibility_v1.2.0.zip` first.
 
 ```bash
+cd public_release
 python -m pip install -r requirements.txt
-python code/reproduce_repository.py
+python reproduce_review_package.py --verify-only
+python reproduce_review_package.py --output ../JPhysG_106072_reproduction
 ```
 
-The command regenerates the tables and figures reported in the manuscript from
-the locked scored data and verifies the headline results.
+The output directory must be new. The full pipeline compares 43 CSVs and preserves
+19 frozen input files. Optional fresh Fortran compilation and source-PDF checks
+are explained in the current package README.
 
-## Data provenance
+## Earlier versions
 
-Atomic-mass chronology is based on AME2012, AME2016, and AME2020. Model inputs
-are FRDM2012 and WS4 from IAEA RIPL-4, HFB-27 from BRUSLIB, and DZ31 from the
-official AMDC 31-parameter program. Consult the frozen protocol for eligibility,
-standardization, and confirmation-lock rules.
+The [v1.1.0 release](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/tag/v1.1.0)
+predates the numerical GSM addition. The original v1.0.0 release and Git history
+remain available. Root-level `code/`, `data/`, `figures/`, `tables/`,
+`frozen_protocol/` and `stage2*` directories are the historical baseline;
+**use `public_release/` inside the v1.2.0 ZIP for the current manuscript and analysis**.
+
+The manuscript and README document the revision-stage data-source amendment,
+figure-derived status of GSM, retrospective comparison, and remaining provenance
+and extrapolation limitations.
