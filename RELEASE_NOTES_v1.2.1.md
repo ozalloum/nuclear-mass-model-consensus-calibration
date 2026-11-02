@@ -12,3 +12,5 @@ This release contains the current JPhysG-106072 scientific package and the docum
 The figure-derived GSM values are reconstructed estimates, not original solver outputs. The ±0.10 MeV allowance is a stress test, not a confidence interval. The regional comparison remains retrospective.
 
 Reviewer correspondence and alternate submission documents are excluded from the public scientific package.
+
+The manuscript repository name and published baseline URL have been updated to `ozalloum/nuclear-mass-models` (release `v1.2.1`). The manuscript source, PDF, package README and checksums are synchronized. This is a repository-location correction; scientific data and numerical results are unchanged.
