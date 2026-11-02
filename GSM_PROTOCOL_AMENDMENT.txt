@@ -1,0 +1,45 @@
+JPhysG-106072: GSM data-source amendment
+
+Original provision
+The frozen protocol's RQ3 specified the calcium chain Z=20, N=28..40 and
+Li et al., Phys. Rev. C 102, 034302 (2020), with Coraggio et al. as a
+corroborating regional reference. Numerical values were restricted to
+source tables, author data or reproducible calculations; manual figure
+digitization was excluded from headline numerical claims.
+
+Change and timing
+This revision admits audited vector-digitized GSM estimates for the regional
+comparison. The decision was made after peer review and after the extracted
+values had been inspected. RQ3 was prespecified; the acquisition method and
+its sensitivity analysis were adopted during revision. The original frozen
+protocol and all original global-model inputs, thresholds and scores remain
+unchanged. This document does not retrospectively preregister the change.
+
+Reason
+The request for author-generated values on 3 September 2026 and a subsequent
+follow-up had not yielded numerical data. The reviewer requested that RQ3 be addressed.
+Vector coordinates permit reproducible reconstruction of the plotted values;
+choosing this method is the author's revision decision, not a specific
+reviewer instruction to digitize.
+
+Scope and safeguards
+1. GSM remains a regional structural comparison, outside the global ensemble.
+2. Values are labeled vector-digitized estimates, not original numerical outputs.
+3. Journal page 5 and arXiv page 11 both reproduce all 15 supplied values at
+   0.01 MeV. Source hashes, coordinate records and external-PDF check are retained.
+4. The main case is A=48..60; no GSM A=48 value is imputed. A=62..72 is archived
+   as an extension only. All six scored methods use common measured A=50,52,54,56.
+5. Core48 and core54 series stay separate. Only A=56 is measured in their overlap.
+6. AME2020 estimates at A=58,60 do not enter measured-reference statistics.
+7. Allowances through +/-0.10 MeV are stress tests, not confidence intervals,
+   theory uncertainties or proven error bounds on the original solver values.
+8. The regional comparison is retrospective, including Li's use of experimental
+   55Ca information. It does not establish causality or independent forecast skill.
+
+Files
+revision_work/raw_source_audit/gsm_vector/: CSV, archived coordinates, source
+hashes, both-PDF audit, optional source-PDF checker and verification records.
+revision_work/gsm_comparison.py and revision_work/tables/calcium_GSM_*.csv:
+matched residuals, metrics, core comparison and extraction stress tests.
+Offline checks use archived coordinates; fresh PDF extraction requires separately
+obtained source PDFs. Source-paper PDFs are not redistributed.

@@ -1,10 +1,10 @@
 # Nuclear-mass model consensus calibration
 
-## Current GSM revision — v1.2.0
+## Current GSM revision — v1.2.1
 
-**[Open the current v1.2.0 release](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/tag/v1.2.0)**
+**[Open the current v1.2.1 release](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/tag/v1.2.1)**
 
-[Download the complete scientific package (ZIP)](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/download/v1.2.0/JPhysG_106072_Reproducibility_v1.2.0.zip)
+[Download the complete scientific package (ZIP)](https://github.com/ozalloum/nuclear-mass-model-consensus-calibration/releases/download/v1.2.1/JPhysG_106072_Reproducibility_v1.2.1.zip)
 
 **How informative is agreement among nuclear-mass models? Chronology-respecting
 tests of error coverage and shell proximity** — JPhysG-106072
@@ -18,11 +18,11 @@ series, matched-isotope comparisons, extraction sensitivity, Figure 7 and the
 complete scientific reproduction materials.
 
 - Start here: download the current ZIP and open `public_release/README.md`.
-- [Current manuscript](JPhysG_106072_Revised_v1.2.0.pdf)
-- [Current numerical supplement](JPhysG_106072_Supplement_v1.2.0.pdf)
+- [Current manuscript](JPhysG_106072_Revised_v1.2.1.pdf)
+- [Current numerical supplement](JPhysG_106072_Supplement_v1.2.1.pdf)
 - [Digitized GSM values (CSV)](Li2020_Fig2b_GSM_digitized.csv)
-- [Figure 7](Figure7_Calcium_S2n_v1.2.0.pdf)
-- [GSM protocol amendment](GSM_PROTOCOL_AMENDMENT_2026-11-02.txt)
+- [Figure 7](Figure7_Calcium_S2n_v1.2.1.pdf)
+- [GSM protocol amendment](GSM_PROTOCOL_AMENDMENT.txt)
 
 Figure 7 uses identical linear scales in both panels: A=48–60 with steps of 2,
 and S2n=0–20 MeV with steps of 2.5 MeV. Values beyond A=60 are retained in
@@ -32,7 +32,7 @@ verification bundle, run report and raw output remain included.
 
 ## Reproduce the current version
 
-Download and extract `JPhysG_106072_Reproducibility_v1.2.0.zip` first.
+Download and extract `JPhysG_106072_Reproducibility_v1.2.1.zip` first.
 
 ```bash
 cd public_release
@@ -51,8 +51,11 @@ The [v1.1.0 release](https://github.com/ozalloum/nuclear-mass-model-consensus-ca
 predates the numerical GSM addition. The original v1.0.0 release and Git history
 remain available. Root-level `code/`, `data/`, `figures/`, `tables/`,
 `frozen_protocol/` and `stage2*` directories are the historical baseline;
-**use `public_release/` inside the v1.2.0 ZIP for the current manuscript and analysis**.
+**use `public_release/` inside the v1.2.1 ZIP for the current manuscript and analysis**.
 
 The manuscript and README document the revision-stage data-source amendment,
 figure-derived status of GSM, retrospective comparison, and remaining provenance
 and extrapolation limitations.
+
+The v1.2.1 patch synchronizes the documents and removes calendar dates from the revision-stage GSM acquisition amendment. All GSM values and Figure 7 are unchanged. Earlier release files are historical snapshots.
+

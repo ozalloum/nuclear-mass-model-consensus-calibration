@@ -1,7 +1,7 @@
 # Reproduce the current GSM revision
 
-Download and extract JPhysG_106072_Reproducibility_v1.2.0.zip from this repository
-or release v1.2.0. Start with public_release/README.md inside the ZIP.
+Download and extract JPhysG_106072_Reproducibility_v1.2.1.zip from this repository
+or release v1.2.1. Start with public_release/README.md inside the ZIP.
 
 ```bash
 cd public_release
