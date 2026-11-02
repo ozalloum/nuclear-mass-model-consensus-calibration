@@ -1,4 +1,4 @@
-# Nuclear-mass model consensus calibration
+# How informative is agreement among nuclear-mass models? Chronology-respecting tests of error coverage and shell proximity
 
 ## Current GSM revision — v1.2.1
 
