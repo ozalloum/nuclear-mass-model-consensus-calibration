@@ -17,3 +17,11 @@ source checks and updated submission figures. The output directory must be new.
 The reviewed environment used Python 3.13.9. Current successful checks are in
 public_release/validation_2026_11_03/. The named ZIP contains the reviewed update;
 the automatic source-code download for the tag retains its historical snapshot.
+
+Final submission checks (4 November 2026):
+```bash
+python validation_2026_11_04/compute_false_consensus_intervals.py
+python validation_2026_11_04/verify_reviewed_tables.py --code-data . --supplement revision_work/submission/JPhysG_106072_Supplement.tex --report ../new_table_check.json
+```
+The complete runner now also recalculates the new event-frequency CSV. The
+original 43 scientific CSVs and 19 frozen inputs remain unchanged.
